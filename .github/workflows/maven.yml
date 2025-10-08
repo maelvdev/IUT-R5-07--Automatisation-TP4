@@ -14,12 +14,12 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions: write-all
+
 jobs:
   build:
-  
-    # Mael :
-    permissions: write-all
 
+    # Mael :
     runs-on: ubuntu-latest
 
     steps:
